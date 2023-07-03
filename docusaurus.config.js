@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'AppBaza',
   tagline: 'Build. Deploy. Iterate.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/appbaza-favicon.ico',
 
   // Set the production url of your site here
   url: 'https://appbaza.com',
@@ -62,19 +62,38 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/appbaza-social-card.jpg',
       navbar: {
-        title: 'AppBaza.com',
+        title: 'AppBaza',
         logo: {
-          alt: 'AppBaza.com: Build. Deploy. Iterate.',
-          src: 'img/logo.svg',
+          alt: 'AppBaza: Build. Deploy. Iterate. Open-source and Open Core software development projects.',
+          src: 'img/appbaza-logo.png',
         },
         items: [
+          {to: '/mobyd', label: 'Mobyd', position: 'left'},
+          {to: '/nest', label: 'Nest', position: 'left'},
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'dropdown',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
+            to: '/docs',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'indexDocsSidebar',
+                label: 'Index',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'mobydDocsSidebar',
+                label: 'Mobyd Docs',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'nestDocsSidebar',
+                label: 'Nest Docs',
+              },
+            ]
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -88,31 +107,52 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Projects',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Mobyd: Monitoring & Tracking',
+                to: '/mobyd',
+              },
+              {
+                label: 'Nest: Next.js & Stripe',
+                to: '/nest',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Docs',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Index',
+                to: '/docs',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Mobyd',
+                to: '/docs/mobyd',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/AppBaza',
+                label: 'Nest',
+                to: '/docs/nest',
               },
             ],
           },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/AppBaza',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [
@@ -122,12 +162,20 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/appbaza',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/AppBaza',
+              },
+              {
+                label: 'v0.1.0',
+                href: '/changelog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://twitter.com/KenanBekk">KenanBek</a>. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
