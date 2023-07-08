@@ -14,7 +14,8 @@ const FeatureList: FeatureItem[] = [
         Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
         description: (
             <>
-                Experience the effortless setup and usability of our APIs, mobile apps, and admin dashboards. Our projects are engineered from the outset to simplify your journey, getting your website operational in no time.
+                Experience the effortless setup and usability of our APIs, mobile apps, and admin dashboards. Our
+                projects are engineered to simplify your journey, getting you started and operational in no time.
             </>
         ),
     },
@@ -23,8 +24,8 @@ const FeatureList: FeatureItem[] = [
         Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
         description: (
             <>
-                The purpose of all projects is to help you focus on what matters - your product and business. Do not
-                reinvent the wheel, use provided features and build your idea on top of them.
+                AppBaza projects aim to help you focus on what matters - your product and business. Do not reinvent the
+                wheel; use provided features and build your idea on top of them.
             </>
         ),
     },
@@ -33,8 +34,8 @@ const FeatureList: FeatureItem[] = [
         Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
         description: (
             <>
-                All projects use modern tech stack like Next.js, React, Expo and React Native. For our backend projects
-                we mainly rely on proven by time technologies like Spring Boot.
+                All projects use modern tech stacks like Next.js, React, Expo, and React Native. For our backend
+                projects, we mainly rely on proven-by-time technologies like Spring Boot.
             </>
         ),
     },

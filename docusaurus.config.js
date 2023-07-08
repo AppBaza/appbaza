@@ -147,8 +147,16 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'GitHub',
+                href: 'https://github.com/appbaza',
+              },
+              {
                 label: 'YouTube',
                 href: 'https://www.youtube.com/codervlogger',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/AppBaza',
               },
             ],
           },
@@ -158,14 +166,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/appbaza',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/AppBaza',
               },
               {
                 label: 'V0.2.0',
