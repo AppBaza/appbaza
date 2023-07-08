@@ -1,8 +1,8 @@
 {
-  "label": "Nest",
+  "label": "NEST",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Documentation for Nest - Next.js and Stripe with management dashboard"
+    "description": "Documentation for NEST: Next.js and Stripe with management dashboard."
   }
 }

@@ -11,15 +11,15 @@ This project is in progress. Check [my Twitter](https://twitter.com/KenanBekk) i
 
 # Intro
 
-Let's discover **Mobyd in less than 5 minutes**.
+Let's discover **MOBYD in less than 5 minutes**.
 
 ## Getting Started
 
 Get started by **creating a new site**.
 
-Or **try Mobyd immediately** with **[deni.mobyd.appbaza.com](https://demo.mobyd.appbaza.com)** (*coming soon*).
+Or **try MOBYD immediately** with **[deni.mobyd.appbaza.com](https://demo.mobyd.appbaza.com)** (*coming soon*).
 
 ### What you'll need
 
-- Download this Postman collection to get started with Mobyd API
+- Download this Postman collection to get started with MOBYD API
 

@@ -72,8 +72,8 @@ const config = {
           src: 'img/appbaza-logo.png',
         },
         items: [
-          {to: '/mobyd', label: 'Mobyd', position: 'left'},
-          {to: '/nest', label: 'Nest', position: 'left'},
+          {to: '/mobyd', label: 'MOBYD', title:'Mobile monitoring and tracking for your products', position: 'left'},
+          {to: '/nest', label: 'NEST', title:'Market-ready Next.js and Stripe project template', position: 'left'},
           {
             type: 'dropdown',
             position: 'left',
@@ -88,12 +88,12 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'mobydDocsSidebar',
-                label: 'Mobyd Docs',
+                label: 'MOBYD Docs',
               },
               {
                 type: 'docSidebar',
                 sidebarId: 'nestDocsSidebar',
-                label: 'Nest Docs',
+                label: 'NEST Docs',
               },
             ]
           },
@@ -112,11 +112,13 @@ const config = {
             title: 'Projects',
             items: [
               {
-                label: 'Mobyd: Monitoring & Tracking',
+                label: 'MOBYD',
+                title: 'Mobile monitoring and tracking for your projects',
                 to: '/mobyd',
               },
               {
-                label: 'Nest: Next.js & Stripe',
+                label: 'NEST',
+                title: 'Market-ready Next.js and Stripe project template with dashboards',
                 to: '/nest',
               },
             ],
@@ -126,35 +128,30 @@ const config = {
             items: [
               {
                 label: 'Index',
+                title: 'Catalogue of all AppBaza project documentations',
                 to: '/docs',
               },
               {
-                label: 'Mobyd',
+                label: 'MOBYD Docs',
+                title: 'Documentation for MOBYD: mobile monitoring and tracking for your project',
                 to: '/docs/mobyd',
               },
               {
-                label: 'Nest',
+                label: 'NEST Docs',
+                title: 'Documentation for NEST: market-ready Next.js and Stripe project template',
                 to: '/docs/nest',
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/AppBaza',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/codervlogger',
+              },
+            ],
+          },
           {
             title: 'More',
             items: [
@@ -171,13 +168,13 @@ const config = {
                 href: 'https://twitter.com/AppBaza',
               },
               {
-                label: 'v0.1.0',
+                label: 'V0.2.0',
                 href: '/changelog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://twitter.com/KenanBekk">KenanBek</a>. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} by <a href="https://twitter.com/KenanBekk">Kanan Rahimov</a>`,
       },
       prism: {
         theme: lightCodeTheme,

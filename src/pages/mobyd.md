@@ -1,12 +1,12 @@
 ---
-title: Mobyd
-description: Mobyd - monitoring and tracking system for your product.
+title: MOBYD
+description: MOBYD - mobile monitoring and tracking system for your products.
 hide_table_of_contents: false
 ---
 
-# Mobyd: Monitoring and Tracking
+# MOBYD: Monitoring and Tracking
 
-**Mobyd** is a monitoring and tracking system for your business.
+**MOBYD** is a mobile monitoring and tracking system for your business.
 
 :::info
 

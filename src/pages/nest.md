@@ -1,12 +1,12 @@
 ---
-title: Nest
-description: Nest - Next.js with Stripe integration and management dashboards.
+title: NEST
+description: NEST - Market-ready Next.js with Stripe and management dashboards.
 hide_table_of_contents: false
 ---
 
-# Nest: Next.js with Stripe
+# NEST: Next.js with Stripe
 
-**Nest** is a Next.js project template with ready to use Stripe integration and management dashboard.
+**Nest** is a market-ready Next.js project template with ready to use Stripe integration and management dashboards.
 
 :::info
 
