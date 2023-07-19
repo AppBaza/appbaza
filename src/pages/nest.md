@@ -12,12 +12,14 @@ hide_table_of_contents: false
 
 Nest project contains two parts:
 
-- **NEST Server** - is the server (or backend) application that integrates with Firebase, Payment APIs, and AI APIs and
+- **NEST** - is the backend application that integrates with Firebase, Payment APIs, and AI APIs and
   exposes an easy-to-use API for web and mobile applications. On top of these APIs will also be Client SDKs for the most
   popular stacks (JavaScript, Dart, Flutter, etc.). 
 
 - **NEST Web** - is a Next.js Web application that integrates with Nest Server and Firebase and provides ready-to-use
   dashboards for User Management, Payments, AI APIs, and more.
+
+Check [Nest documentation page](/docs/nest) for more detail information.
 
 :::info
 

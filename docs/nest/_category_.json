@@ -1,8 +1,9 @@
 {
   "label": "NEST",
-  "position": 2,
+  "collapsed": false,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Documentation for NEST: Next.js and Stripe with management dashboard."
+    "description": "Documentation for NEST: Backend for your web and application apps with Payments, AI, dashboards, and more."
   }
 }

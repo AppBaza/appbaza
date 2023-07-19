@@ -72,8 +72,8 @@ const config = {
           src: 'img/appbaza-logo.png',
         },
         items: [
-          {to: '/mobyd', label: 'MOBYD', title:'Mobile monitoring and tracking for your products', position: 'left'},
           {to: '/nest', label: 'NEST', title:'Market-ready Next.js and Stripe project template', position: 'left'},
+          {to: '/mobyd', label: 'MOBYD', title:'Mobile monitoring and tracking for your products', position: 'left'},
           {
             type: 'dropdown',
             position: 'left',
@@ -87,13 +87,13 @@ const config = {
               },
               {
                 type: 'docSidebar',
-                sidebarId: 'mobydDocsSidebar',
-                label: 'MOBYD Docs',
+                sidebarId: 'nestDocsSidebar',
+                label: 'NEST',
               },
               {
                 type: 'docSidebar',
-                sidebarId: 'nestDocsSidebar',
-                label: 'NEST Docs',
+                sidebarId: 'mobydDocsSidebar',
+                label: 'MOBYD',
               },
             ]
           },
