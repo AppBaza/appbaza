@@ -151,10 +151,6 @@ const config = {
                 href: 'https://github.com/appbaza',
               },
               {
-                label: 'YouTube',
-                href: 'https://www.youtube.com/codervlogger',
-              },
-              {
                 label: 'Twitter',
                 href: 'https://twitter.com/AppBaza',
               },
@@ -170,6 +166,10 @@ const config = {
               {
                 label: 'V0.2.0',
                 href: '/changelog',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/codervlogger',
               },
             ],
           },

@@ -1,22 +1,28 @@
 ---
 title: NEST
-description: NEST - Market-ready Next.js with Stripe and management dashboards.
+description: NEST - Backend-as-a-Service with Next.js and Payments, AI APIs, and more.
 hide_table_of_contents: false
 ---
 
-# NEST: Next.js with Stripe
+# NEST: Backend-as-a-Service with Next.js and Payments, AI APIs, and more.
 
-**Nest** is a market-ready Next.js project template with ready to use Stripe integration and management dashboards.
+**NEST** is a Backend-as-a-Service application with a frontend web application template in Next.js.
+
+## Project Overview
+
+Nest project contains two parts:
+
+- **NEST Server** - is the server (or backend) application that integrates with Firebase, Payment APIs, and AI APIs and
+  exposes an easy-to-use API for web and mobile applications. On top of these APIs will also be Client SDKs for the most
+  popular stacks (JavaScript, Dart, Flutter, etc.). 
+
+- **NEST Web** - is a Next.js Web application that integrates with Nest Server and Firebase and provides ready-to-use
+  dashboards for User Management, Payments, AI APIs, and more.
 
 :::info
 
-This project is in progress. Check [my Twitter](https://twitter.com/KenanBekk) if you want to follow updates.
+It is not released yet. Currently, I am working on the first public release.
+
+You can follow the development of this project via [my Twitter](https://twitter.com/KenanBekk).
 
 :::
-
-## Getting Started
-
-It takes only a few minutes to get started with a Nest project template and have all Stripe integration.
-
-This tutorial provides quick get started instructions. Please refer to the [Nest documentation page](/docs/nest) for
-more detail information.
