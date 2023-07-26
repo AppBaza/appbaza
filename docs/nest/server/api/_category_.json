@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "collapsed": false,
+  "label": "APIs",
+  "link": {
+    "type": "generated-index",
+    "description": "Catalogue of all REST API endpoints"
+  }
+}
