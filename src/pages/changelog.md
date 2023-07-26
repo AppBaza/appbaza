@@ -6,15 +6,27 @@ hide_table_of_contents: false
 
 # Change Log
 
+## NEST change logs
+
+#### V0.1.0 (in development)
+
+- Add PingPong API for testing
+
+
+
 ## MOBYD change logs
 
 * No public version yet.
 
-## NEST change logs
 
-* No public version yet.
 
 ## AppBaza.com change logs
+
+#### V0.3.0 (July 26, 2023)
+
+- Update [NEST Project](/nest) page
+- Update structure of [documentation](/docs) pages
+- Add [NEST PingPong API](/docs/nest/server/api/pingpong-api) documentation 
 
 #### V0.2.0 (June 8, 2023)
 

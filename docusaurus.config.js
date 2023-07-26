@@ -164,7 +164,7 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'V0.2.0',
+                label: 'V0.3.0 (26.07.23)',
                 href: '/changelog',
               },
               {
