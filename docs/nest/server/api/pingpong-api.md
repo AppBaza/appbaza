@@ -7,7 +7,7 @@ title: PingPong API
 PingPong is a basic REST API to exchange client and server version information. Additionally, client can send a source
 information to indicate which component is sending the request.
 
-Supports GET (not client version and source) and POST (with client version and source) requests.
+Supports GET (no client version and source) and POST (with client version and source) requests.
 
 :::info
 
@@ -22,7 +22,7 @@ Request NEST backend's version information.
 ### Request
 
 ```bash
-curl -X GET localhost:8880/v1/pingpong
+curl -X GET https://api.nest.appbaza.com/v1/pingpong
 ```
 
 ### Response
@@ -43,7 +43,7 @@ Post client version and source and receive NEST backend's version information.
 ```bash
 curl -X POST -H "Content-Type: application/json" \
   -d '{"source": "nest-web", "version": "1.0.0"}' \
-  localhost:8880/v1/pingpong
+  https://api.nest.appbaza.com/v1/pingpong
 ```
 
 ### Response
