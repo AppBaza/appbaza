@@ -1,4 +1,4 @@
-.PHONY: e commit deploy
+.PHONY: e c d
 
 e/%:
 	@echo $*
