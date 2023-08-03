@@ -19,7 +19,7 @@ Nest project contains two parts:
 - **NEST Web** - is a Next.js Web application that integrates with Nest Server and Firebase and provides ready-to-use
   dashboards for User Management, Payments, AI APIs, and more.
 
-Check [Nest documentation page](/docs/nest) for more detail information.
+Check [NEST documentation page](/docs/nest) for more detail information.
 
 :::info
 
