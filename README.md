@@ -1,4 +1,13 @@
-# Website
+# [AppBaza.com](https://appbaza.com/)
+
+## How to name branches?
+
+- `docs/{project}-{abc123}` - for documentation updates
+- `blog/{blog-item-slug}` - for blog updates
+- `website/{change}` - for website changes (menus, links, etc)
+- `conf/{change}` - for configuration changes
+
+## How to start, build and deploy the website?
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
