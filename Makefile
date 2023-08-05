@@ -5,7 +5,7 @@ e/%:
 
 c/%:
 	git add .
-	git commit -m "$(subst _, ,$(subst -,, $*))"
+	git commit -m "$(subst _, ,$(subst -, , $*))"
 	git push
 
 d:

@@ -7,6 +7,14 @@
 - `website/{change}` - for website changes (menus, links, etc)
 - `conf/{change}` - for configuration changes
 
+## How change version?
+
+Update the following files with the new version:
+
+- `package.json` - modify `version` field
+- `docusaurus.config.js` - search for `/changelog`
+- `src/pages/changelog.md` - add a new version with the change log
+
 ## How to start, build and deploy the website?
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
