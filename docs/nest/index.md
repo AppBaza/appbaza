@@ -35,3 +35,13 @@ It is a complete web application that you can use as a **starting point for your
 - 3rd Party API integrations (email, AI, etc.).
 
 - Ready to use dashboards.
+---
+
+
+
+#### DOC INFO
+
+- Created: 2023-07-06
+- Last updated: 2023-07-26
+
+Something missing? Email me at `ken [at] AppBaza [dot] com` or message me on Twitter [@KenanBekk](https://twitter.com/KenanBekk).
