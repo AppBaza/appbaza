@@ -12,15 +12,15 @@ hide_table_of_contents: false
 
 - Add PingPong API for testing
 
-
-
-## MOBYD change logs
-
-* No public version yet.
-
-
+---
 
 ## AppBaza.com change logs
+
+#### V0.4.0 (August, 2023)
+
+- [NEST Project](/nest) project updates:
+  - Add more granular project information
+  - Add [project status](/nest#project-status)
 
 #### V0.3.0 (July 26, 2023)
 
