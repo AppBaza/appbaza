@@ -112,14 +112,14 @@ const config = {
             title: 'Projects',
             items: [
               {
-                label: 'MOBYD',
-                title: 'Mobile monitoring and tracking for your projects',
-                to: '/mobyd',
-              },
-              {
                 label: 'NEST',
                 title: 'Market-ready Next.js and Stripe project template with dashboards',
                 to: '/nest',
+              },
+              {
+                label: 'MOBYD',
+                title: 'Mobile monitoring and tracking for your projects',
+                to: '/mobyd',
               },
             ],
           },
@@ -127,19 +127,19 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Index',
+                label: 'INDEX',
                 title: 'Catalogue of all AppBaza project documentations',
                 to: '/docs',
-              },
-              {
-                label: 'MOBYD Docs',
-                title: 'Documentation for MOBYD: mobile monitoring and tracking for your project',
-                to: '/docs/mobyd',
               },
               {
                 label: 'NEST Docs',
                 title: 'Documentation for NEST: market-ready Next.js and Stripe project template',
                 to: '/docs/nest',
+              },
+              {
+                label: 'MOBYD Docs',
+                title: 'Documentation for MOBYD: mobile monitoring and tracking for your project',
+                to: '/docs/mobyd',
               },
             ],
           },
@@ -148,11 +148,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/appbaza',
+                href: 'https://github.com/AppBaza',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/AppBaza',
+                href: 'https://twitter.com/AppBazaCOM',
               },
             ],
           },
@@ -164,7 +164,7 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'V0.3.0 (26.07.23)',
+                label: 'V0.4.0 (August, 2023)',
                 href: '/changelog',
               },
               {

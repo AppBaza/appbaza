@@ -5,7 +5,7 @@ title: Overview
 
 # Overview
 
-NEST is a backend as a service (BaaS) for mobile and web applications.
+**NEST** is a backend as a service (BaaS) for mobile and web applications.
 
 - Easy to use integration APIs for,
   - AI services,
