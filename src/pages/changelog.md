@@ -15,7 +15,7 @@ hide_table_of_contents: false
 
 <br />
 
-## AppBaza.com change logs
+## [AppBaza.com](https://appbaza.com) change logs
 
 #### V0.4.0 (August, 2023)
 
