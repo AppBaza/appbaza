@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappbaza=self.webpackChunkappbaza||[]).push([[9373],{3054:a=>{a.exports=JSON.parse('{"label":"open core","permalink":"/blog/tags/open-core","allTagsPath":"/blog/tags","count":1}')}}]);

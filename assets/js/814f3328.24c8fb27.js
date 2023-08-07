@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkappbaza=self.webpackChunkappbaza||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome AppBaza","permalink":"/blog/welcome-appbaza"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappbaza=self.webpackChunkappbaza||[]).push([[6315],{9022:a=>{a.exports=JSON.parse('{"label":"AppBaza","permalink":"/blog/tags/app-baza","allTagsPath":"/blog/tags","count":1}')}}]);

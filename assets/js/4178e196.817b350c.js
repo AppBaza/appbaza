@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkappbaza=self.webpackChunkappbaza||[]).push([[336],{817:e=>{e.exports=JSON.parse('{"title":"NEST Web","description":"NEST Web Documentation","slug":"/category/nest-web","permalink":"/docs/category/nest-web","navigation":{"previous":{"title":"Overview","permalink":"/docs/nest/"},"next":{"title":"Overview","permalink":"/docs/nest/web/"}}}')}}]);
