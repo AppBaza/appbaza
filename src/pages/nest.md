@@ -15,7 +15,8 @@ On top of standard BaaS features (storage, authentication, etc.), NEST also prov
 - Email services (Postmark, SendGrid, MailChimp, etc.).
 - and more.
 
-Optionally, NEST also provides a web-based dashboard to manage your app and data.
+Optionally, NEST also provides a web-based dashboard to manage your app and data. You can also use the NEST Dashboard
+as a starting point for your own web application. Read more about the NEST Dashboard [here](#nest-dashboard).
 
 ## Project Overview
 
@@ -25,25 +26,22 @@ The NEST project consists of the following parts:
   exposes an easy-to-use API for web and mobile applications. On top of these APIs will also be Client SDKs for the most
   popular stacks (JavaScript, Dart, Flutter, etc.).
 
-- **NEST Dashboard**: Next.js Web application that integrates with <u>NEST Service</u> and Firebase and provides ready-to-use
+- **NEST Dashboard**: Next.js Web application that integrates with <u>NEST Service</u> and Firebase and provides
+  ready-to-use
   dashboards for User Management, Payments, AI APIs, and more.
 
 Check [NEST documentation page](/docs/nest) for more detail information.
 
-### NEST Service
+## NEST Service
 
 **NEST Service** is the actual backend application that integrates with Firebase, Payment APIs, and AI APIs and
 exposes an easy-to-use API for web and mobile applications. On top of these APIs will also be Client SDKs for the most
 popular stacks (JavaScript, Dart, Flutter, etc.).
 
-The service can be used in the following ways:
+## NEST Dashboard
 
-### NEST Dashboard
-
-**NEST Dashboard** is a Next.js Web application that integrates with the <u>NEST Service</u> and Firebase and provides ready-to-use
-dashboards and features such as User Management, Payments, AI APIs, and more.
-
-
+**NEST Dashboard** is a Next.js Web application that integrates with the <u>NEST Service</u> and Firebase and provides
+ready-to-use dashboards and features such as User Management, Payments, AI APIs, and more.
 
 ## How you can use NEST?
 
@@ -80,24 +78,27 @@ already comes with NEST integration and will include polished UI components that
 
 ---
 
-
 ## Project Status
 
 The project is currently in the early development phase.
 
-| Feature                                    | NEST Service | NEST Dashboard          | Public API | SDK | Open Source | [Expected] Release Date |
-|--------------------------------------------|--------------|-------------------------|------------|-----|-------------|-------------------------|
-| **Core Features**                          |
-| Initial Project                            | ✅            | 🚧                      | 🚧         | ❌   | 🚧          | 2023 Week 32            |
-| Authentication                             | ❌            | ✅ (with Firebase)       | ❌          | ❌   | ❌           | 2023 Q3                 |
-| User Management                            | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Week 3x            |
-| Data Storage                               | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Week 32-33         |
-| File Storage                               | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Q3                 |
-| **Web & Mobile App Features**              |
-| Special data API for List and Detail views | 🚧           | ❌                       | 🚧         | ❌   | ❌           | 2023 Week 32-33         |
-| **Integrations**                           |
-| Payments (Stripe)                          | ❌            | ✅(directly with Stripe) | ❌          | ❌   | ❌           | 2023 Q3                 |
-| AI (OpenAI, GPT API)                       | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Q3                 |
+| Feature                                                  | NEST Service | NEST Dashboard          | Public API | SDK | Open Source | [Expected] Release Date |
+|----------------------------------------------------------|--------------|-------------------------|------------|-----|-------------|-------------------------|
+| **Core Features**                                        |
+| Initial Project                                          | ✅            | 🚧                      | 🚧         | ❌   | 🚧          | 2023 Week 32            |
+| Authentication                                           | ❌            | ✅ (with Firebase)       | ❌          | ❌   | ❌           | 2023 Q3                 |
+| User Management                                          | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Week 3x            |
+| Data Storage                                             | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Week 32-33         |
+| File Storage                                             | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Q3                 |
+| **Web & Mobile App Features**                            |
+| [List and Detail Views API][nest-docs-list-detail-views] | 🚧           | ❌                       | 🚧         | ❌   | ❌           | 2023 Week 32-33         |
+| **Integrations**                                         |
+| Payments (Stripe)                                        | ❌            | ✅(directly with Stripe) | ❌          | ❌   | ❌           | 2023 Q3                 |
+| AI (OpenAI, GPT API)                                     | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Q3                 |
 
-Follow [@KenanBekk](https://twitter.com/KenanBekk) for development updates and [@AppBazaCOM](https://twitter.com/AppBazaCOM)
+Follow [@KenanBekk](https://twitter.com/KenanBekk) for development updates
+and [@AppBazaCOM](https://twitter.com/AppBazaCOM)
 for feature announcements.
+
+
+[nest-docs-list-detail-views]: /docs/nest/api-for-list-detail-views "List and Detail Views API"

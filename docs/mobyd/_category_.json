@@ -1,6 +1,7 @@
 {
-  "label": "MOBYD",
   "position": 2,
+  "collapsed": true,
+  "label": "MOBYD",
   "link": {
     "type": "generated-index",
     "description": "Documentation for MOBYD: mobile monitoring and tracking for your projects."

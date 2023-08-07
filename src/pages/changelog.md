@@ -6,13 +6,14 @@ hide_table_of_contents: false
 
 # Change Log
 
-## NEST change logs
+## [NEST](/nest) change logs
 
 #### V0.1.0 (in development)
 
 - Add PingPong API for testing
+- Add initial documentation for [API for List and Detail views](/docs/nest/api-for-list-detail-views) feature
 
----
+<br />
 
 ## AppBaza.com change logs
 
@@ -26,7 +27,7 @@ hide_table_of_contents: false
 
 - Update [NEST Project](/nest) page
 - Update structure of [documentation](/docs) pages
-- Add [NEST PingPong API](/docs/nest/server/api/pingpong-api) documentation 
+- Add [NEST PingPong API](/docs/nest/service/api/pingpong-api) documentation 
 
 #### V0.2.0 (June 8, 2023)
 

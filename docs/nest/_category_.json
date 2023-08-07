@@ -1,7 +1,7 @@
 {
-  "label": "NEST",
-  "collapsed": false,
   "position": 1,
+  "collapsed": false,
+  "label": "NEST",
   "link": {
     "type": "generated-index",
     "description": "Documentation for NEST: Backend for your web and application apps with Payments, AI, dashboards, and more."

@@ -1,11 +1,12 @@
 ---
-sidebar_position: 1
-title: List and View Items
+sidebar_position: 2
+title: API for List and Detail Views
 ---
 
 # List and View Items
 
-During the first steps of most Web and Mobile applications, you will need to create a list of items that can be displayed in a table or a list view.
+During the first steps of most Web and Mobile applications, you will need to create a list of items that can be
+displayed in a table or a list view.
 
 Usually, you will also need
 
@@ -28,7 +29,8 @@ And, **NEST** makes it very easy to create this feature.
 
 ## Structure of an Item
 
-An item is a JSON object that has a unique ID, a set of properties, and an inner object which can be used to store any additional data.
+An item is a JSON object that has a unique ID, a set of properties, and an inner object which can be used to store any
+additional data.
 
 ```json
 {
@@ -36,7 +38,10 @@ An item is a JSON object that has a unique ID, a set of properties, and an inner
   "slug": "item-name",
   "title": "Item Name",
   "description": "Item description",
-  "tags": ["tag1", "tag2"],
+  "tags": [
+    "tag1",
+    "tag2"
+  ],
   "meta": {
     "key1": "value1",
     "key2": "value2"
@@ -47,11 +52,14 @@ An item is a JSON object that has a unique ID, a set of properties, and an inner
 
 
 
+<br /><br /><br />
+
 ---
 
-#### DOC INFO
+#### Doc's metadata:
 
-- Created: 2021-06-29
-- Last updated: 2021-06-29
+- Created: 2023-08-07
+- Last updated: 2023-08-07
 
-Something missing? Email me at `ken [at] AppBaza [dot] com` or message me on Twitter [@KenanBekk](https://twitter.com/KenanBekk).
+Something missing or want to request an additional feature? [Message me](https://twitter.com/KenanBekk) or email me
+here: `ken [at] AppBaza [dot] com`.

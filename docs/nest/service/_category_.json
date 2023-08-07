@@ -1,7 +1,7 @@
 {
-  "label": "NEST API",
+  "position": 3,
   "collapsed": false,
-  "position": 2,
+  "label": "NEST Service",
   "link": {
     "type": "generated-index",
     "description": "NEST API Documentation"

@@ -83,7 +83,7 @@ const config = {
               {
                 type: 'docSidebar',
                 sidebarId: 'indexDocsSidebar',
-                label: 'Index',
+                label: 'INDEX',
               },
               {
                 type: 'docSidebar',

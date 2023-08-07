@@ -42,7 +42,7 @@ Post client version and source and receive NEST backend's version information.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
-  -d '{"source": "nest-web", "version": "1.0.0"}' \
+  -d '{"source": "nest-∂dashboard", "version": "1.0.0"}' \
   https://api.nest.appbaza.com/v1/pingpong
 ```
 
@@ -54,3 +54,17 @@ curl -X POST -H "Content-Type: application/json" \
   "pongVersion": "0.1.0"
 }
 ```
+
+
+
+<br /><br /><br />
+
+---
+
+#### Doc's metadata:
+
+- Created: 2023-08-07
+- Last updated: 2023-08-07
+
+Something missing or want to request an additional feature? [Message me](https://twitter.com/KenanBekk) or email me
+here: `ken [at] AppBaza [dot] com`.

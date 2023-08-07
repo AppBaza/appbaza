@@ -4,7 +4,7 @@ title: Overview
 
 # Overview
 
-**NEST Web** is a Next.js based web application.
+**NEST Dashboard** is a Next.js based web application.
 
 It can be used in the following ways:
 
@@ -20,6 +20,6 @@ It can be used in the following ways:
 
 #### Project template for building a custom web application.
 
-Since NEST Web is a Next.js application, it can be used as a starting point for building a custom web application.
+Since NEST Dashboard is a Next.js application, it can be used as a starting point for building a custom web application.
 
 It already comes with NEST integration and will include polished UI components that you can use for user facing pages.

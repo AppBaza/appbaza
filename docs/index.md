@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+title: Docs
 ---
 
-# Index
+# Docs
 
 Index of all public documentation pages.
 

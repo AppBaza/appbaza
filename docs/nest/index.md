@@ -20,13 +20,13 @@ title: Overview
 
 - Web-based dashboard to manage your app and data.
 
-## NEST Web
+## NEST Dashboard
 
 Is a web application template that uses NEST as a backend.
 
 It is a complete web application that you can use as a **starting point for your own web app.**
 
-**NEST Web** already comes with a lot of features that you would expect from a web application, such as:
+**NEST Dashboard** already comes with a lot of features that you would expect from a web application, such as:
 
 - User authentication.
 
