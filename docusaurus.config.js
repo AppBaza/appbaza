@@ -164,13 +164,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'V0.4.0 (August, 2023)',
+                label: 'V0.4.0 (Aug, 2023)',
                 href: '/changelog',
               },
-              {
-                label: 'YouTube',
-                href: 'https://www.youtube.com/codervlogger',
-              },
+              // {
+              //   label: 'YouTube',
+              //   href: 'https://www.youtube.com/codervlogger',
+              // },
             ],
           },
         ],

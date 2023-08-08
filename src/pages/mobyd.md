@@ -10,6 +10,6 @@ hide_table_of_contents: false
 
 :::info
 
-This project is in progress. Check [my Twitter](https://twitter.com/KenanBekk) if you want to follow updates.
+**MOBYD** does not have a public version yet. Please [contact me](https://twitter.com/KenanBekk) if you are interested in this project.
 
 :::
