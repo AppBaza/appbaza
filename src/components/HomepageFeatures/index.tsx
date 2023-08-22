@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: 'Simple and Streamlined',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        Svg: require('@site/static/img/appbaza-simple-and-streamlined-icon.svg').default,
         description: (
             <>
                 Experience the effortless setup and usability of our APIs, mobile apps, and admin dashboards. Our
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Make Your Vision a Priority',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        Svg: require('@site/static/img/appbaza-your-vision-icon.svg').default,
         description: (
             <>
                 AppBaza projects aim to help you focus on what matters - your product and business. Do not reinvent the
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Modern Tech Stack',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/appbaza-tech-stack-icon.svg').default,
         description: (
             <>
                 All projects use modern tech stacks like Next.js, React, Expo, and React Native. For our backend

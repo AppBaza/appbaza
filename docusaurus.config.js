@@ -174,7 +174,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} by <a href="https://twitter.com/KenanBekk">Kanan Rahimov</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} by <a href="https://www.linkedin.com/in/kananrahimov/">Kanan Rahimov</a>. Icons by <a href="https://www.behance.net/gulnarrahimzade">Gulnar Rahimzade</a>.`,
       },
       prism: {
         theme: lightCodeTheme,

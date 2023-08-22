@@ -1,7 +1,9 @@
-.PHONY: e c d
+.PHONY: e f c d
 
 e/%:
 	@echo $*
+f:
+	git fetch && git pull origin main --rebase
 
 c/%:
 	git add .
