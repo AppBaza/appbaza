@@ -72,8 +72,8 @@ const config = {
           src: 'img/appbaza-logo.png',
         },
         items: [
-          {to: '/nest', label: 'NEST', title:'Market-ready Next.js and Stripe project template', position: 'left'},
-          {to: '/mobyd', label: 'MOBYD', title:'Mobile monitoring and tracking for your products', position: 'left'},
+          { to: '/nest', label: 'NEST', title: 'Market-ready Backend-as-a-Service for your mobile and web apps', position: 'left' },
+          { to: '/mobyd', label: 'MOBYD', title: 'Mobile monitoring and tracking for your products', position: 'left' },
           {
             type: 'dropdown',
             position: 'left',
@@ -97,7 +97,7 @@ const config = {
               },
             ]
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/AppBaza',
             label: 'GitHub',
@@ -113,7 +113,7 @@ const config = {
             items: [
               {
                 label: 'NEST',
-                title: 'Market-ready Next.js and Stripe project template with dashboards',
+                title: 'Market-ready Backend-as-a-Service for your mobile and web apps',
                 to: '/nest',
               },
               {
@@ -133,7 +133,7 @@ const config = {
               },
               {
                 label: 'NEST Docs',
-                title: 'Documentation for NEST: market-ready Next.js and Stripe project template',
+                title: 'Documentation for NEST: market-ready Backend-as-a-Service for your mobile and web apps',
                 to: '/docs/nest',
               },
               {

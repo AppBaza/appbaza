@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: API for List and Detail Views
+title: API for list and detail views
 ---
 
 # List and View Items
@@ -38,10 +38,7 @@ additional data.
   "slug": "item-name",
   "title": "Item Name",
   "description": "Item description",
-  "tags": [
-    "tag1",
-    "tag2"
-  ],
+  "tags": ["tag1", "tag2"],
   "meta": {
     "key1": "value1",
     "key2": "value2"
@@ -49,8 +46,6 @@ additional data.
   "innerObject": {}
 }
 ```
-
-
 
 <br /><br /><br />
 

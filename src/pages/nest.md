@@ -1,104 +1,114 @@
 ---
 title: NEST
-description: NEST - Backend-as-a-Service with Next.js and Payments, AI APIs, and more.
+description: NEST - Backend-as-a-Service for Mobile and Web Applications.
 hide_table_of_contents: false
 ---
 
-# NEST
-
-**NEST** is a backend-as-a-service (BaaS) application.
-
-On top of standard BaaS features (storage, authentication, etc.), NEST also provides easy-to-use integration APIs for:
-
-- AI services,
-- Payment systems (Stripe, Lemon Squeeze, etc.),
-- Email services (Postmark, SendGrid, MailChimp, etc.).
-- and more.
-
-Optionally, NEST also provides a web-based dashboard to manage your app and data. You can also use the NEST Dashboard
-as a starting point for your own web application. Read more about the NEST Dashboard [here](#nest-dashboard).
-
-## Project Overview
-
-The NEST project consists of the following parts:
-
-- **NEST Service**: Backend application that integrates with Firebase, Payment APIs, and AI APIs and
-  exposes an easy-to-use API for web and mobile applications. On top of these APIs will also be Client SDKs for the most
-  popular stacks (JavaScript, Dart, Flutter, etc.).
-
-- **NEST Dashboard**: Next.js Web application that integrates with <u>NEST Service</u> and Firebase and provides
-  ready-to-use
-  dashboards for User Management, Payments, AI APIs, and more.
-
-Check [NEST documentation page](/docs/nest) for more detail information.
+# NEST: Backend-as-a-Service (BaaS)
 
 ## NEST Service
 
-**NEST Service** is the actual backend application that integrates with Firebase, Payment APIs, and AI APIs and
-exposes an easy-to-use API for web and mobile applications. On top of these APIs will also be Client SDKs for the most
-popular stacks (JavaScript, Dart, Flutter, etc.).
+**NEST** is a backend-as-a-service and provides variety of features that are required for building modern mobile and web applications.
 
-## NEST Dashboard
+:::info
 
-**NEST Dashboard** is a Next.js Web application that integrates with the <u>NEST Service</u> and Firebase and provides
-ready-to-use dashboards and features such as User Management, Payments, AI APIs, and more.
+NEST Backend-as-a-Service is currently avaiable as a private beta. If you are interested in trying it out, please <a href="mailto:ken@appbaza.com">contact us</a>.
 
-## How you can use NEST?
+:::
 
-### Backend for your app
+## Core Features
+
+- Generic API for List and Detail Views.
+- File storage and management.
+- Image manipulation (upload, resize, crop, etc.).
+
+## Advanced Features
+
+### AI Integrations
+
+#### OpenAI APIs
+
+- Chat Completion API.
+- Image Generation API.
+
+#### AI API Proxy
+
+All traffic to AI APIs is proxied through NEST Service. This allows us to add additional features on top of the
+standard API such as:
+
+- Caching.
+- Rate limiting.
+- Usage tracking.
+- Billing estimation.
+
+### Other Integrations
+
+On top of the standard BaaS features, NEST provides the following features:
+
+- Payment systems integration (Stripe, Lemon Squeeze, etc.).
+- Email services (Postmark, SendGrid, MailChimp, etc.).
+- Push notifications (Firebase, OneSignal, etc.).
+- Management dashboard for your app and data.
+
+## Backend Services
+
+The NEST Backend consists of the following services:
+
+### NEST Service
+
+- **NEST Service**: backend-as-a-service that runs on cloud or on-premise and provides all the features listed above. It also provides simple APIs for integrating with Firebase, Payment APIs, and AI APIs. We plan to provide SDKs for the most popular stacks (JavaScript/TypeScript, Python, Java, Kotlin).
+
+### NEST Dashboard
+
+- **NEST Dashboard**: web-based management interface that integrates with <u>NEST Service</u> and other services (Firebase, Payment APIs, AI APIs, etc.) and provides ready-to-use dashboards for User Management, Payments, AI APIs, and more.
+
+:::tip Documentation
+
+Please check out the [NEST Documentation](/docs/nest) for more information.
+
+:::
+
+## How to use NEST for your mobile or web app?
+
+### Ready-to-use backend APIs for your app
 
 NEST Service can be used as a backend for your app. It provides all the standard BaaS features (storage, authentication,
 etc.) and also integrates with Firebase, Payment APIs, and AI APIs.
 
-### Management Dashboard for the NEST Service
+By using NEST Service, you can focus on building your app and not worry about the backend.
 
-NEST Service also comes with a web-based dashboard that can be used to manage your app and data.
+### Generic API for List and Detail Views
 
-### Project template for building a custom dashboard
+Often, you will need to create a list of items that can be displayed in a table or a list view. Usually, you will also need to add
 
-Since NEST Dashboard is a Next.js application, it can be used as a starting point for building a custom dashboard. It
-already comes with NEST Service integration and will include polished UI components that you can use for user facing
-pages.
+- a search feature to the list,
+- a detail view to display the details of an item,
+- and a delete feature to delete an item from the list.
 
-### Project template for building a custom web application
+NEST Service provides a standard Items API that can be used to create a list of items and a detail view for each item.
 
-Since NEST Service is a Next.js application, it can be used as a starting point for building a custom web application.
-It already comes with NEST integration and will include polished UI components that you can use for user facing pages.
+Items API also supports filtering by type, category, and group. It also supports advanced search by JSON properties.
 
-### Project template for building a custom mobile application
+### Backend APIs for File and Image Management
 
-Since NEST Service is a Next.js application, it can be used as a starting point for building a custom mobile
-application. It already comes with NEST integration and will include polished UI components that you can use for user
-facing pages.
+NEST Service provides a simple API to upload and then manage files. It also provides a specific set of APIs for image manipulation (upload, resize, crop, etc.).
 
-### Project template for building a custom backend
+All files and images can be references in other APIs.
 
-Since NEST Service is an open-source application, it can be used as a starting point for building a custom backend. It
-already comes with NEST integration and will include polished UI components that you can use for user facing pages.
+For example, upload and crop image, and later use it for Image Generation AI API.
 
----
+### API Proxy for AI Integrations
 
-## Project Status
+Directly integrating with AI APIs can be challenging. Especially if you expect the same set of technical features (caching, rate limiting, billing estimation, etc.) from all of them.
 
-The project is currently in the early development phase.
+NEST Service provides a simple API for integrating with AI APIs. It also provides a proxy for AI APIs that allows us to add additional features on top of the standard API.
 
-| Feature                                                  | NEST Service | NEST Dashboard          | Public API | SDK | Open Source | [Expected] Release Date |
-|----------------------------------------------------------|--------------|-------------------------|------------|-----|-------------|-------------------------|
-| **Core Features**                                        |
-| Initial Project                                          | ✅            | 🚧                      | 🚧         | ❌   | 🚧          | 2023 Week 32            |
-| Authentication                                           | ❌            | ✅ (with Firebase)       | ❌          | ❌   | ❌           | 2023 Q3                 |
-| User Management                                          | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Week 3x            |
-| Data Storage                                             | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Week 32-33         |
-| File Storage                                             | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Q3                 |
-| **Web & Mobile App Features**                            |
-| [List and Detail Views API][nest-docs-list-detail-views] | 🚧           | ❌                       | 🚧         | ❌   | ❌           | 2023 Week 32-33         |
-| **Integrations**                                         |
-| Payments (Stripe)                                        | ❌            | ✅(directly with Stripe) | ❌          | ❌   | ❌           | 2023 Q3                 |
-| AI (OpenAI, GPT API)                                     | ❌            | ❌                       | ❌          | ❌   | ❌           | 2023 Q3                 |
+Additionally, we take care of version compatibility and provide a unified API for all AI APIs.
 
-Follow [@KenanBekk](https://twitter.com/KenanBekk) for development updates
-and [@AppBazaCOM](https://twitter.com/AppBazaCOM)
-for feature announcements.
+:::caution Project Status
 
+NEST is currently in private beta. If you are interested in trying it out, please <a href="mailto:ken@appbaza.com">contact us</a>.
 
-[nest-docs-list-detail-views]: /docs/nest/api-for-list-detail-views "List and Detail Views API"
+- [Project Development Tracker](/docs/nest/development-status)
+
+:::

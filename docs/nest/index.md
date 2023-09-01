@@ -1,13 +1,14 @@
 ---
 sidebar_position: 1
-title: Overview
+title: NEST Backend as a Service
 ---
 
-# Overview
+# NEST: Backend-as-a-Service (BaaS)
 
 **NEST** is a backend as a service (BaaS) for mobile and web applications.
 
 - Easy to use integration APIs for,
+
   - AI services,
 
   - Payment systems (Stripe, Lemon Squeeze, etc.),
@@ -35,9 +36,8 @@ It is a complete web application that you can use as a **starting point for your
 - 3rd Party API integrations (email, AI, etc.).
 
 - Ready to use dashboards.
+
 ---
-
-
 
 #### DOC INFO
 
