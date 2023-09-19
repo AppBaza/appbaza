@@ -1,0 +1,343 @@
+---
+title: Items API
+description: Generic purpose API for storing, retrieving, and filtering various types of data.
+tags:
+- nest-api
+---
+
+# Items API
+
+Items API is one of the main generic purpose APIs of NEST backend.
+
+## Model
+
+`Item` is the generic purpose data structure that can be used to store, retrieve, and filter various types of data.
+
+### Base attributes
+
+#### ID
+
+Item's `id` attribute is randomly generated `UUID4`. This field is also the primary key for the `items` table.
+
+#### Created and updated date times
+
+Attributes `createdAt` and `updatedAt` are automatically set by the backend.
+
+As the names suggest, these fields indicate creation and last updated date times.
+
+#### Slug
+
+Attribute `slug` is a unique and human-readable identifier for the item. Slug is used in URLs and can be used to retrieve items.
+
+Slug values are defined and set by clients. Slug values must be unique within a project.
+
+#### Title
+
+Attribute `title` is a human-readable title for the item.
+
+#### Description
+
+Attribute `description` is a human-readable description for the item.
+
+#### Sequence number
+
+Attribute `sequenceNumber` is an integer value that can be used to sort items.
+
+Clients can set custom sequence numbers in combination with `itemType`, `itemGroup`, and `itemCategory` to order items in a custom way.
+
+Default value is `0`.
+
+### Type, Category, and Group
+
+Each item has `itemType`, `itemCategory`, and `itemGroup` attributes.
+
+These attributes can be used to filter items.
+
+Clients can set custom values for these attributes.
+
+### Reference
+
+Attribute `refItemId` is a reference to another item.
+
+Default value is `null`.
+
+### Project
+
+Each item belongs to a project. Project is a logical grouping of items.
+
+Clients set the project ID for each request as `nest-project-id` header. If the header is not set, the default user project is used.
+
+### Meta
+
+Attribute `meta` is a JSON object that can be used to store metadata.
+
+Clients can set custom meta data.
+
+Items search endpoint supports filtering by metadata using key/value pairs.
+
+### Inner Object
+
+Attribute `innerObject` is a JSON object that can be used to store any type of JSON-compatible data.
+
+Items search endpoint supports filtering by inner object's attributes (JSON filtering).
+
+### Example
+
+```json
+{
+  "id": "b83f441e-5daf-4c58-924c-9f96c74fc493",
+  "createdAt": "2023-09-19T19:21:35.948587",
+  "updatedAt": "2023-09-19T19:21:35.948629",
+  "project": {
+    "id": "d3b9626a-cf4b-45f9-96c0-3267053eaf11",
+    "name": "project-18"
+  },
+  "refItemId": null,
+  "slug": "item-513",
+  "title": "Title for item-513",
+  "description": "Description for item-513",
+  "itemType": "text",
+  "itemGroup": "group-1",
+  "itemCategory": "category-1",
+  "sequenceNumber": 0,
+  "meta": {
+    "meta1": "valueA",
+    "meta2": "valueB"
+  },
+  "innerObject": {
+    "key": "value",
+    "class": "prod",
+    "deep": {
+      "n": 1,
+      "m": 2
+    }
+  }
+}
+```
+
+## API Endpoints
+
+### Create Item
+
+Create a new item.
+
+#### Request
+
+<Tabs
+    defaultValue="curl"
+    values={[
+        { label: 'cURL', value: 'curl' },
+        { label: 'HTTP', value: 'http' }
+    ]}
+    groupId="code-snipets"
+>
+<TabItem value="curl" label="cURL">
+
+```bash
+curl --location 'https://api.nest.appbaza.com/v1/items' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer <YOUR CLIENT TOKEN>' \
+--data '{
+    "refItemId": "",
+    "slug": "item-513",
+    "title": "Title for item-513",
+    "description": "Description for item-513",
+    "itemType": "text",
+    "itemGroup": "group-1",
+    "itemCategory": "category-1",
+    "meta": {
+        "meta1": "valueA",
+        "meta2": "valueB"
+    },
+    "innerObject": {
+        "key": "value",
+        "class": "prod",
+        "deep": {
+            "n": 1,
+            "m": 2
+        }
+    }
+}'
+```
+
+</TabItem>
+<TabItem value="http" label="HTTP">
+
+```http
+POST /v1/items HTTP/1.1
+Host: api.nest.appbaza.com
+Content-Type: application/json
+Authorization: Bearer <YOUR API TOKEN>
+Content-Length: 433
+
+{
+    "refItemId": "",
+    "slug": "item-513",
+    "title": "Title for item-513",
+    "description": "Description for item-513",
+    "itemType": "text",
+    "itemGroup": "group-1",
+    "itemCategory": "category-1",
+    "meta": {
+        "meta1": "valueA",
+        "meta2": "valueB"
+    },
+    "innerObject": {
+        "key": "value",
+        "class": "prod",
+        "deep": {
+            "n": 1,
+            "m": 2
+        }
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+#### Response
+
+Returns the created item.
+
+```json
+{
+  "id": "b83f441e-5daf-4c58-924c-9f96c74fc493",
+  "createdAt": "2023-09-19T19:21:35.948587",
+  "updatedAt": "2023-09-19T19:21:35.948629",
+  "project": {
+    "id": "d3b9626a-cf4b-45f9-96c0-3267053eaf11",
+    "name": "project-18"
+  },
+  "refItemId": null,
+  "slug": "item-513",
+  "title": "Title for item-513",
+  "description": "Description for item-513",
+  "itemType": "text",
+  "itemGroup": "group-1",
+  "itemCategory": "category-1",
+  "sequenceNumber": 0,
+  "meta": {
+    "meta1": "valueA",
+    "meta2": "valueB"
+  },
+  "innerObject": {
+    "key": "value",
+    "class": "prod",
+    "deep": {
+      "n": 1,
+      "m": 2
+    }
+  }
+}
+```
+
+### Search Items
+
+Search items by various attributes.
+
+#### Request
+
+<Tabs
+    defaultValue="curl"
+    values={[
+        { label: 'cURL', value: 'curl' },
+        { label: 'HTTP', value: 'http' }
+    ]}
+    groupId="code-snipets"
+>
+<TabItem value="curl">
+
+```bash
+curl --location 'https://api.nest.appbaza.com/v1/items/search' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer <YOUR API TOKEN>' \
+--data '{
+    "itemsPerPage": 10,
+    "page": 1,
+    "refItemId": "deeca583-3b4c-403f-a69d-9d816f4c2f35",
+    "searchTerm": "",
+    "itemType": "",
+    "meta": {
+
+    },
+    "innerObjectQuery": "'\''class'\'' = '\''test'\''"
+}'
+```
+
+</TabItem>
+<TabItem value="http">
+
+```http
+POST /v1/items/search HTTP/1.1
+Host: api.nest.appbaza.com
+Content-Type: application/json
+Authorization: Bearer <YOUR API TOKEN>
+Content-Length: 214
+
+{
+    "itemsPerPage": 10,
+    "page": 1,
+    "refItemId": "deeca583-3b4c-403f-a69d-9d816f4c2f35",
+    "searchTerm": "",
+    "itemType": "",
+    "meta": {
+
+    },
+    "innerObjectQuery": "'class' = 'test'"
+}
+```
+
+</TabItem>
+</Tabs>
+
+#### Response
+
+Returns a list of matched items.
+
+```json
+[
+  {
+    "id": "b83f441e-5daf-4c58-924c-9f96c74fc493",
+    "createdAt": "2023-09-19T19:21:35.948587",
+    "updatedAt": "2023-09-19T19:21:35.948629",
+    "project": {
+      "id": "d3b9626a-cf4b-45f9-96c0-3267053eaf11",
+      "name": "project-18"
+    },
+    "refItemId": null,
+    "slug": "item-513",
+    "title": "Title for item-513",
+    "description": "Description for item-513",
+    "itemType": "text",
+    "itemGroup": "group-1",
+    "itemCategory": "category-1",
+    "sequenceNumber": 0,
+    "meta": {
+      "meta1": "valueA",
+      "meta2": "valueB"
+    },
+    "innerObject": {
+      "key": "value",
+      "class": "prod",
+      "deep": {
+        "n": 1,
+        "m": 2
+      }
+    }
+  }
+]
+```
+
+<br /><br /><br />
+
+---
+
+#### NEST: Backend as a Service / Items API - Generic purpose API for list and detail views with JSON filtering.
+
+##### Metadata:
+
+- Generated: 2023-09-19
+- Last updated: 2023-09-19
+
+[Message](https://twitter.com/KenanBekk) or [email](mailto:ken@appbaza.com) us with feedback, questions, or requests.

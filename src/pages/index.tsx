@@ -20,8 +20,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/blog/welcome-appbaza">
-            Read about AppBaza ⏱️
+            to="https://www.appbaza.com">
+            Visit AppBaza.com &rarr;
           </Link>
         </div>
       </div>

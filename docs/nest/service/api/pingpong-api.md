@@ -61,10 +61,11 @@ curl -X POST -H "Content-Type: application/json" \
 
 ---
 
-#### Doc's metadata:
+#### NEST: Backend as a Service / PingPong API - test API to exchange client and server version information.
+
+##### Metadata:
 
 - Created: 2023-08-07
 - Last updated: 2023-08-07
 
-Something missing or want to request an additional feature? [Message me](https://twitter.com/KenanBekk) or email me
-here: `ken [at] AppBaza [dot] com`.
+[Message](https://twitter.com/KenanBekk) or [email](mailto:ken@appbaza.com) us with feedback, questions, or requests.
