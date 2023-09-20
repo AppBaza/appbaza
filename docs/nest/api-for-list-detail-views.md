@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: API for list and detail views
+title: List and detail views
 ---
 
 # List and View Items

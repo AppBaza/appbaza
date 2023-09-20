@@ -1,47 +1,30 @@
 ---
 sidebar_position: 1
-title: NEST Backend as a Service
+title: Overview
 ---
 
 # NEST: Backend-as-a-Service (BaaS)
 
-**NEST** is a backend as a service (BaaS) for mobile and web applications.
+**NEST** is a backend as a service (BaaS) for mobile, web, and games.
 
-- Easy to use integration APIs for,
+NEST Backend's primary goal is ease of integration and use.
 
-  - AI services,
+:::info
 
-  - Payment systems (Stripe, Lemon Squeeze, etc.),
+This documentation provides all required information to integrate NEST Backend into your application.
 
-  - Email services (Postmark, SendGrid, MailChimp, etc.).
+Visit [AppBaza.com/NEST](https://AppBaza.com/NEST) for more information about NEST features.
 
-- Complete backend for your app, including a database, authentication, push notifications, and more.
+:::
 
-- Client libraries that makes it easy to use the backend from your app.
+## Steps
 
-- Web-based dashboard to manage your app and data.
+1. Create a NEST Account
+2. Install client SDK and integrate it into your application
+3. Start using NEST Backend
 
-## NEST Dashboard
+## Quick Start
 
-Is a web application template that uses NEST as a backend.
+### Install NEST SDK
 
-It is a complete web application that you can use as a **starting point for your own web app.**
-
-**NEST Dashboard** already comes with a lot of features that you would expect from a web application, such as:
-
-- User authentication.
-
-- Payment and subscription management.
-
-- 3rd Party API integrations (email, AI, etc.).
-
-- Ready to use dashboards.
-
----
-
-#### DOC INFO
-
-- Created: 2023-07-06
-- Last updated: 2023-07-26
-
-Something missing? Email me at `ken [at] AppBaza [dot] com` or message me on Twitter [@KenanBekk](https://twitter.com/KenanBekk).
+<
