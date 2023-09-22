@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappbaza=self.webpackChunkappbaza||[]).push([[4121],{8070:a=>{a.exports=JSON.parse('[{"label":"nest-api","permalink":"/docs/tags/nest-api","count":2}]')}}]);
