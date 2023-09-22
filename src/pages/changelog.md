@@ -27,7 +27,7 @@ hide_table_of_contents: false
 
 - Update [NEST Project](/nest) page
 - Update structure of [documentation](/docs) pages
-- Add [NEST PingPong API](/docs/nest/service/api/pingpong-api) documentation 
+- Add [NEST PingPong API](/docs/nest/backend/api/pingpong-api) documentation 
 
 #### V0.2.0 (June 8, 2023)
 

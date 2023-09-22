@@ -1,3 +1,7 @@
+.project {
+  padding: 3rem 0;
+}
+
 .projects {
   display: flex;
   align-items: center;

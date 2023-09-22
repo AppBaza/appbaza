@@ -4,22 +4,22 @@ title: Overview
 
 # Overview
 
-**NEST Dashboard** is a Next.js based web application.
+**NEST Dashboard** is the management dashboard for the NEST Backend-as-a-Service (BaaS).
 
-It can be used in the following ways:
+## Features
 
-#### Management Dashboard for the NEST Backend.
-
-- User management.
-- View and modify stored data.
-- Manage settings.
+- Data management.
+- Profile and project management.
+- List, filter, and bulk operations.
+- Image and file management.
 - 3rd party integration dashboard:
-  - Manage AI Prompts,
-  - Email templates,
-  - Payment information;
+  - Payment and subscription settings for your Payment integration.
+  - Manage AI prompts and context settings (for our AI proxy integrations)
 
-#### Project template for building a custom web application.
+:::info
 
-Since NEST Dashboard is a Next.js application, it can be used as a starting point for building a custom web application.
+NEST Dashboard is currently in private beta. You can join the waitlist:
 
-It already comes with NEST integration and will include polished UI components that you can use for user facing pages.
+[**Join waitlist for NEST Dashboard**](https://www.appbaza.com/nest/dashboard-for-baas)
+
+:::

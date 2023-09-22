@@ -22,24 +22,26 @@ const ProjectList: ProjectItem[] = [
             </>
         ),
         productLink: "https://www.appbaza.com/nest",
-        documentationLink: "https://developer.appbaza.com/docs/nest",
+        documentationLink: "/docs/nest",
     },
 ];
 
 function Project({title, description, productLink, documentationLink}: ProjectItem) {
     return (
-        <div className={clsx("col col--6")}>
-            <div className="text--center padding-horiz--md">
-                <h3>{title}</h3>
-                <p>{description}</p>
-            </div>
-            <div className="text--center">
-                <Link
-                    className="button button--secondary button--info"
-                    to={documentationLink}
-                    target="">
-                    Read Documentation
-                </Link>
+        <div className={styles.project}>
+            <div className={clsx("col col--12")}>
+                <div className="text--center padding-horiz--md">
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                </div>
+                <div className="text--center">
+                    <Link
+                        className="button button--secondary button--info"
+                        to={documentationLink}
+                        target="">
+                        Read Documentation
+                    </Link>
+                </div>
             </div>
         </div>
     );

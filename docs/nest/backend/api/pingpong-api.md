@@ -35,7 +35,7 @@ groupId="code-snipets"
 
 ```bash
 curl -L "https://api.nest.appbaza.com/v1/pingpong" \
--H "Authorization: Bearer <YOUR API TOKEN>"
+-H "Authorization: Bearer _YOUR_API_TOKEN_"
 ```
 
 </TabItem>
@@ -44,7 +44,7 @@ curl -L "https://api.nest.appbaza.com/v1/pingpong" \
 ```http
 GET /v1/pingpong HTTP/1.1
 Host: api.nest.appbaza.com
-Authorization: Bearer <YOUR API TOKEN>
+Authorization: Bearer _YOUR_API_TOKEN_
 ```
 
 </TabItem>
@@ -88,6 +88,6 @@ Authorization: Bearer <YOUR API TOKEN>
 ##### Metadata:
 
 - Generated: 2023-08-07
-- Last updated: 2023-09-20
+- Last updated: 2023-09-22
 
 [Message](https://twitter.com/KenanBekk) or [email](mailto:ken@appbaza.com) us with feedback, questions, or requests.

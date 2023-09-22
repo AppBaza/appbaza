@@ -136,7 +136,7 @@ Create a new item.
 ```bash
 curl --location 'https://api.nest.appbaza.com/v1/items' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer <YOUR CLIENT TOKEN>' \
+--header 'Authorization: Bearer _YOUR_API_TOKEN_' \
 --data '{
     "refItemId": "",
     "slug": "item-513",
@@ -167,7 +167,7 @@ curl --location 'https://api.nest.appbaza.com/v1/items' \
 POST /v1/items HTTP/1.1
 Host: api.nest.appbaza.com
 Content-Type: application/json
-Authorization: Bearer <YOUR API TOKEN>
+Authorization: Bearer _YOUR_API_TOKEN_
 Content-Length: 433
 
 {
@@ -251,7 +251,7 @@ Search items by various attributes.
 ```bash
 curl --location 'https://api.nest.appbaza.com/v1/items/search' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer <YOUR API TOKEN>' \
+--header 'Authorization: Bearer _YOUR_API_TOKEN_' \
 --data '{
     "itemsPerPage": 10,
     "page": 1,
@@ -272,7 +272,7 @@ curl --location 'https://api.nest.appbaza.com/v1/items/search' \
 POST /v1/items/search HTTP/1.1
 Host: api.nest.appbaza.com
 Content-Type: application/json
-Authorization: Bearer <YOUR API TOKEN>
+Authorization: Bearer _YOUR_API_TOKEN_
 Content-Length: 214
 
 {
@@ -338,6 +338,6 @@ Returns a list of matched items.
 ##### Metadata:
 
 - Generated: 2023-09-19
-- Last updated: 2023-09-19
+- Last updated: 2023-09-22
 
 [Message](https://twitter.com/KenanBekk) or [email](mailto:ken@appbaza.com) us with feedback, questions, or requests.
