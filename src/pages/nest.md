@@ -10,12 +10,6 @@ hide_table_of_contents: false
 
 **NEST** is a backend-as-a-service and provides variety of features that are required for building modern mobile and web applications.
 
-:::info
-
-NEST Backend-as-a-Service is currently avaiable as a private beta. If you are interested in trying it out, please <a href="mailto:ken@appbaza.com">contact us</a>.
-
-:::
-
 ## Core Features
 
 - Generic API for List and Detail Views.
@@ -50,21 +44,12 @@ On top of the standard BaaS features, NEST provides the following features:
 - Push notifications (Firebase, OneSignal, etc.).
 - Management dashboard for your app and data.
 
-## Backend Services
-
-The NEST Backend consists of the following services:
-
-### NEST Service
-
-- **NEST Service**: backend-as-a-service that runs on cloud or on-premise and provides all the features listed above. It also provides simple APIs for integrating with Firebase, Payment APIs, and AI APIs. We plan to provide SDKs for the most popular stacks (JavaScript/TypeScript, Python, Java, Kotlin).
-
-### NEST Dashboard
-
-- **NEST Dashboard**: web-based management interface that integrates with <u>NEST Service</u> and other services (Firebase, Payment APIs, AI APIs, etc.) and provides ready-to-use dashboards for User Management, Payments, AI APIs, and more.
-
 :::tip Documentation
 
-Please check out the [NEST Documentation](/docs/nest) for more information.
+Learn more about NEST:
+
+- Visit [**NEST Documentation**](/docs/nest) for developer documentation.
+- Visit [**AppBaza.com/nest**](https://www.appbaza.com/nest) for product features and pricing.
 
 :::
 

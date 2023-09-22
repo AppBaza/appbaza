@@ -1,11 +1,7 @@
-.features {
+.projects {
   display: flex;
   align-items: center;
   padding: 3rem 0;
   width: 100%;
-}
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
+  background-color: #a3c5f1;
 }

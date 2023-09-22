@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AppBaza',
+  title: 'AppBaza for Developers',
   tagline: 'Build. Deploy. Iterate.',
   favicon: 'img/appbaza-favicon.ico',
 
@@ -99,6 +99,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            href: 'https://www.appbaza.com',
+            label: 'AppBaza.com',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/AppBaza',
             label: 'GitHub',
             position: 'right',
@@ -166,6 +171,10 @@ const config = {
               {
                 label: 'V0.4.0 (Aug, 2023)',
                 href: '/changelog',
+              },
+              {
+                label: 'AppBaza.com',
+                href: 'https://www.appbaza.com',
               },
               // {
               //   label: 'YouTube',
