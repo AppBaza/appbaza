@@ -14,6 +14,6 @@ It is a desktop application for Mac, Windows, and Linux that fine-tuned on softw
 
 Learn more about AskCode:
 
-- Visit [**AppBaza.com/askcode**](https://www.appbaza.com/nest) for product features and pricing.
+- Visit [**AppBaza.com/askcode**](https://www.appbaza.com/askcode) for product features and pricing.
 
 :::

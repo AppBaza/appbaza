@@ -24,12 +24,24 @@ const ProjectList: ProjectItem[] = [
         productLink: "https://www.appbaza.com/nest",
         documentationLink: "/docs/nest",
     },
+    {
+        title: "AskCode: ChatGPT for Mac, Windows, and Linux",
+        description: (
+            <>
+                Zero configuration AI assistant for your coding tasks. AskCode is a
+                ChatGPT desktop application that helps you write code faster and
+                smarter. It is available for Mac, Windows, and Linux.
+            </>
+        ),
+        productLink: "https://www.appbaza.com/askcode",
+        documentationLink: "/docs/askcode",
+    },
 ];
 
 function Project({title, description, productLink, documentationLink}: ProjectItem) {
     return (
         <div className={styles.project}>
-            <div className={clsx("col col--12")}>
+            <div className={clsx("col col--6")}>
                 <div className="text--center padding-horiz--md">
                     <h3>{title}</h3>
                     <p>{description}</p>
