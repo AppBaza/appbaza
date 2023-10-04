@@ -73,7 +73,7 @@ const config = {
         },
         items: [
           { to: '/nest', label: 'NEST', title: 'Market-ready Backend-as-a-Service for your mobile and web apps', position: 'left' },
-          { to: '/mobyd', label: 'MOBYD', title: 'Mobile monitoring and tracking for your products', position: 'left' },
+          { to: '/askcode', label: 'AskCode', title: 'Market-ready Backend-as-a-Service for your mobile and web apps', position: 'left' },
           {
             type: 'dropdown',
             position: 'left',
@@ -122,9 +122,9 @@ const config = {
                 to: '/nest',
               },
               {
-                label: 'MOBYD',
-                title: 'Mobile monitoring and tracking for your projects',
-                to: '/mobyd',
+                label: 'AskCode',
+                title: 'ChatGPT for Mac, Windows, and Linux for developers',
+                to: '/askcode',
               },
             ],
           },
@@ -169,7 +169,7 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'V0.4.0 (Aug, 2023)',
+                label: 'V0.6.0 (Sep, 2023)',
                 href: '/changelog',
               },
               {
