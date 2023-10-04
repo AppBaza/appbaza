@@ -53,6 +53,7 @@ hide_table_of_contents: false
 
 - Add basic information about [AskCode](/askcode) project
 - Updated homepage
+- Upgrade Docusaurus to 2.4.3
 
 ### V0.5.0 (Sep 2023)
 
