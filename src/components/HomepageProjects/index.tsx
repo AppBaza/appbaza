@@ -34,7 +34,7 @@ const ProjectList: ProjectItem[] = [
             </>
         ),
         productLink: "https://www.appbaza.com/askcode",
-        documentationLink: "/docs/askcode",
+        documentationLink: "/askcode",
     },
 ];
 
