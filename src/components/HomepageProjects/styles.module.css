@@ -1,11 +1,16 @@
-.project {
-  padding: 3rem 0;
+.projects {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0 2rem 0;
+    width: 100%;
 }
 
-.projects {
-  display: flex;
-  align-items: center;
-  padding: 3rem 0;
-  width: 100%;
-  background-color: #a3c5f1;
+.projects h2 {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.projects a {
+    margin: 1rem;
+    min-width: 200px;
 }

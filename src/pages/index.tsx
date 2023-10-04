@@ -38,10 +38,8 @@ export default function Home(): JSX.Element {
             description="Templates, tools, and frameworks for market-ready software development projects">
             <HomepageHeader/>
             <main>
-                <HomepageFeatures/>
-            </main>
-            <main>
                 <HomepageProjects/>
+                <HomepageFeatures/>
             </main>
         </Layout>
     );
