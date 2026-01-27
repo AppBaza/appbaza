@@ -11,31 +11,31 @@ type ProjectItem = {
 };
 
 const ProjectList: ProjectItem[] = [
-    {
-        title: "NEST: Backend-as-a-Service",
-        description: (
-            <>
-                NEST is a backend-as-a-service (BaaS) project that provides a
-                ready-to-use backend for your mobile, web, and game applications.
-                It aims to simplify the development process and reduce the time
-                to market.
-            </>
-        ),
-        productLink: "https://www.appbaza.com/nest",
-        documentationLink: "/docs/nest",
-    },
-    {
-        title: "AskCode: ChatGPT for Mac, Windows, and Linux",
-        description: (
-            <>
-                Zero configuration AI assistant for your coding tasks. AskCode is a
-                ChatGPT desktop application that helps you write code faster and
-                smarter. It is available for Mac, Windows, and Linux.
-            </>
-        ),
-        productLink: "https://www.appbaza.com/askcode",
-        documentationLink: "/askcode",
-    },
+  {
+    title: "NEST: Backend-as-a-Service",
+    description: (
+      <>
+        NEST is a backend-as-a-service (BaaS) project that provides a
+        ready-to-use backend for your mobile, web, and game applications. It
+        aims to simplify the development process and reduce the time to market.
+      </>
+    ),
+    productLink: "https://www.appbaza.com/nest",
+    documentationLink: "/docs/nest",
+  },
+  {
+    title: "Dev Kit for AI: Launch Production-Ready AI SaaS Applications",
+    description: (
+      <>
+        Complete platform for building AI-powered SaaS: Next.js starter kit,
+        hosted backend, AI-integrations, admin console, and user dashboards.
+        Ship in hours with authentication, AI generations, and rich components
+        library.
+      </>
+    ),
+    productLink: "https://devkit4ai.com/",
+    documentationLink: "https://docs.devkit4ai.com/",
+  },
 ];
 
 function Project({title, description, productLink, documentationLink}: ProjectItem) {
