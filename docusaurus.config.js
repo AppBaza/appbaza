@@ -169,7 +169,7 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'V0.6.0 (Sep 2023)',
+                label: 'V0.7.0 (Jan 2026)',
                 href: '/changelog',
               },
               {
