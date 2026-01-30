@@ -12,7 +12,7 @@ type ProjectItem = {
 
 const ProjectList: ProjectItem[] = [
   {
-    title: "NEST: Backend-as-a-Service",
+    title: "Backend-as-a-Service",
     description: (
       <>
         NEST is a backend-as-a-service (BaaS) project that provides a
@@ -20,8 +20,8 @@ const ProjectList: ProjectItem[] = [
         aims to simplify the development process and reduce the time to market.
       </>
     ),
-    productLink: "https://www.appbaza.com/nest",
-    documentationLink: "/docs/nest",
+    productLink: "https://docs.devkit4ai.com/getting-started/cloud-api-explained",
+    documentationLink: "https://docs.devkit4ai.com/cloud-api/introduction",
   },
   {
     title: "Dev Kit for AI: Launch Production-Ready AI SaaS Applications",
