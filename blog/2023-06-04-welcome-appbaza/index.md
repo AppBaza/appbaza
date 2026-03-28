@@ -47,8 +47,15 @@ documentation.
 
 From time to time, I will write a blog post to bring clarity to the progress.
 
-Stay in touch!
 
-Ken ( mail me at `ken + @ + this domain` )
 
-*Last updated: June 8, 2023*
+---
+
+### Stay in touch!
+
+Ken
+
+* Email me at `ken + @ + this domain`
+* Message me on [Twitter](https://twitter.com/KenanBekk)
+
+*Last updated: August 4, 2023*
